@@ -1,9 +1,9 @@
-.counterBox {
+.timer {
     text-align: center;
     background: black;
 }
 
-.counterBox div{
+.timer div{
     display: inline-block;
     font-size: 70px;
     line-height: 70px;
@@ -11,5 +11,10 @@
     color: white;
     padding: 10px;
     margin: 5px;
-    border-color: white;
+}
+
+.firstDigit, .secondDigit,
+.thirdDigit, .fourthDigit, 
+.fifthDigit, .sixthDigit {
+    border: 2px solid white;
 }
